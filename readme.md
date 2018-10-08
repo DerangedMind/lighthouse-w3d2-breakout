@@ -83,6 +83,6 @@ $('#my-id')
 
 # Demos
 
-- Handling Events
+- Demo 1: Handling Events (say hello to our aliens &#x1F47E; and &#x1F47D; that wants to talk '\u{1F4AC}')
 - Basic creation of elements
 - More complete demo, the Weather App
