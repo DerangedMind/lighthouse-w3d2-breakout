@@ -43,26 +43,8 @@ const createArticle = (pet) => {
   return $article;
 };
 
-$(function(){
-
-  $('.pets-container').append(createArticle(pets[0]));
-
+$(function () {
+  $.each(pets, (index, pet) => {
+    $('.pets-container').append(createArticle(pet));
+  });
 });
-
-
-// <article>
-// <header>
-//   <h2>Dingo</h2>
-// </header>
-
-// <div class="content">
-//   <ul>
-//     <li><span>Species:</span> Dog</li>
-//     <li><span>Age: 1</span></li>
-//   </ul>
-// </div>
-
-// <footer>
-//   Dingo is a dog that is 1 years old
-// </footer>
-// </article>
