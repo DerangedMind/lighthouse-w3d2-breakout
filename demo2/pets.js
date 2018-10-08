@@ -21,8 +21,7 @@ const pets = [
   },
 ];
 
-const createArticle = (pet) => {
-  const { name, type, age } = pet;
+const createArticle = ({ name, type, age }) => {
 
   const $article = $('<article>');
 
