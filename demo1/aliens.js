@@ -1,19 +1,7 @@
-$(function() {
-
-  $('.alien-btn').on('click', function(event) {
-
-    const element = $(this)
-      .closest('.alien-section')
-      .find('.talk')
-      .append('\u{1F4AC}');
-  });
-
-  $('.alien-btn').on('mouseenter', function(event) {
-    $(this).css('backgroundColor', 'mediumorchid');
-  });
-
-  $('.alien-btn').on('mouseleave', function(event) {
-    $(this).css('backgroundColor', 'royalblue');
-  });
-
+// TODOs:
+// - demo evt
+// - demo this
+// - demo add farts to the sybling
+$('.alien-btn').on('click', function(evt) {
+  console.log(evt.offsetX, evt.offsetY);
 });
